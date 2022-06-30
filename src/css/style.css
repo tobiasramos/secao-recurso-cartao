@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&family=Poppins:wght@200;400;600&display=swap');
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+    background-color: hsl(234, 12%, 34%);
+}
+
+.container {
+    display: flex;
+    position: relative;
+}
+
+.subtitle {
+    width: 550px;
+    height: 120px;
+    margin: 0px auto;
+    padding: 5px;
+    text-align: center;
+}
+
+.subtitle h2 {
+    color: hsl(229, 6%, 66%);
+}
+
+.subtitle p {
+    color: hsl(0, 0%, 98%);
+}
+
+.card {
+    position: absolute;
+    width: 320px;
+    height: 190px;
+    margin: 10px;
+    border-top: solid 3px;
+    border-radius: 4px;
+    box-shadow: 10px 10px;
+
+    background-color: hsl(0, 0%, 98%);
+}
+
+.card h3, p {
+    margin-left: 30px;
+}
+
+.card h3 {
+    margin-top: 20px;
+}
+
+.card p {
+    font-size: 14px;
+}
+
+.card-1 {
+    border-top-color: hsl(180, 62%, 55%);
+    margin-top: 140px;
+    margin-left: 185px;
+}
+
+.card-2 {
+    border-top-color: hsl(0, 78%, 62%);
+    margin-top: 26px;
+    margin-left: 525px;
+}
+
+.card-3 {
+    border-top-color: hsl(34, 97%, 64%);
+    margin-top: 246px;
+    margin-left: 525px;
+}
+
+.card-4 {
+    border-top-color: hsl(212, 86%, 64%);
+    margin-top: 140px;
+    margin-left: 870px;
+}
+
+.icon {
+    margin-top: 22px;
+    margin-left: 235px;
+}
